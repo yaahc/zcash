@@ -89,7 +89,7 @@ native_packages := native_ccache
 
 wallet_packages=bdb
 
-libzcashconsensus_packages=boost
+libzcashconsensus_packages=boost libsodium
 
 ifneq ($(build_os),darwin)
 darwin_native_packages=native_cctools
